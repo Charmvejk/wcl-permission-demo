@@ -16,9 +16,9 @@ public class MainActivity extends AppCompatActivity {
 
     // 所需的全部权限
     static final String[] PERMISSIONS = new String[]{
-            Manifest.permission.RECORD_AUDIO,
-            Manifest.permission.MODIFY_AUDIO_SETTINGS
-    };
+            //todo 必要权限
+            Manifest.permission.READ_PHONE_STATE,
+     };
 
     @Bind(R.id.main_t_toolbar) Toolbar mTToolbar;
 
